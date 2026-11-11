@@ -117,7 +117,7 @@ class MainActivity : Activity() {
         val edit = EditText(this).apply {
             hint = hintText
             textSize = 15f
-            singleLine = true
+            maxLines = 1
             inputType = InputType.TYPE_CLASS_TEXT
             setPadding(dp(12), 0, dp(12), 0)
             setBackgroundColor(Color.WHITE)
